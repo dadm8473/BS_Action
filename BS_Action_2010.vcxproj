@@ -380,11 +380,26 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AssetManager.cpp" />
+    <ClCompile Include="CCamera.cpp" />
+    <ClCompile Include="CEndingScene.cpp" />
+    <ClCompile Include="CGameScene.cpp" />
+    <ClCompile Include="CScene.cpp" />
+    <ClCompile Include="CTitleScene.cpp" />
+    <ClCompile Include="Game.cpp" />
     <None Include="DXUT\Optional\directx.ico" />
+    <ClInclude Include="AssetManager.h" />
+    <ClInclude Include="CCamera.h" />
+    <ClInclude Include="CEndingScene.h" />
+    <ClInclude Include="CGameScene.h" />
+    <ClInclude Include="CMatrix.h" />
+    <ClInclude Include="CScene.h" />
     <ClInclude Include="CTexture.h" />
+    <ClInclude Include="CTitleScene.h" />
     <ClInclude Include="DXUT\Core\DXUT.h" />
     <ClInclude Include="DXUT\Core\DXUTenum.h" />
     <ClInclude Include="DXUT\Core\DXUTmisc.h" />
+    <ClCompile Include="CMatrix.cpp" />
     <ClCompile Include="CTexture.cpp" />
     <ClCompile Include="DXUT\Core\DXUT.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
@@ -410,6 +425,7 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Game.h" />
     <ClInclude Include="Header.h" />
     <CLInclude Include="resource.h" />
     <ResourceCompile Include="BS_Action.rc" />

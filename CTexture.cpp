@@ -24,7 +24,7 @@ CTexture::CTexture(LPCWSTR fileName, LPCWSTR extName, int maxScene)
 			D3DPOOL_MANAGED,
 			D3DX_DEFAULT,
 			D3DX_DEFAULT,
-			0
+			0,
 			NULL,
 			NULL,
 			&_texture[i]
