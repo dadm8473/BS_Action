@@ -36,6 +36,18 @@
     <Filter Include="Scene\TitleScene">
       <UniqueIdentifier>{a3dcf882-7c11-48e0-ac20-e94f29c996fb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{e16d9e9d-5876-47cb-86a4-4812c7cf20f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy">
+      <UniqueIdentifier>{29d9fb6a-b81a-46c5-86e4-23e11f224dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Boss">
+      <UniqueIdentifier>{66c22568-6065-4a99-aeee-bf3c5fbcd7f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Transportation">
+      <UniqueIdentifier>{0cda2b75-bd5f-414c-9709-873614db1d7f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="DXUT\Optional\directx.ico">
