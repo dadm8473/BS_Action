@@ -1,2 +1,24 @@
-﻿  CTexture.cpp
+﻿  AssetManager.cpp
+  CCamera.cpp
+d:\github\bs_action\ccamera.cpp(20): warning C4238: 비표준 확장이 사용됨: 클래스 rvalue를 lvalue로 사용했습니다.
+d:\github\bs_action\ccamera.cpp(34): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\bs_action\ccamera.cpp(55): warning C4458: 'time' 선언은 클래스 멤버를 숨깁니다.
+  d:\github\bs_action\ccamera.h(20): note: 'CCamera::time' 선언을 참조하십시오.
+d:\github\bs_action\ccamera.cpp(55): warning C4458: 'amount' 선언은 클래스 멤버를 숨깁니다.
+  d:\github\bs_action\ccamera.h(21): note: 'CCamera::amount' 선언을 참조하십시오.
+  CEndingScene.cpp
+  CGameObejct.cpp
+  CGameScene.cpp
+  CPlayer.cpp
+  CScene.cpp
+  CTitleScene.cpp
+  CTransportation.cpp
+  Game.cpp
+  CMatrix.cpp
+d:\github\bs_action\cmatrix.cpp(45): warning C4458: 'maxScene' 선언은 클래스 멤버를 숨깁니다.
+  d:\github\bs_action\cmatrix.h(16): note: 'CMatrix::maxScene' 선언을 참조하십시오.
+  CTexture.cpp
+  BS_Action.cpp
+  코드를 생성하고 있습니다...
+AssetManager.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
   BS_Action_2010.vcxproj -> D:\GitHub\BS_Action\Debug\BS_Action.exe
