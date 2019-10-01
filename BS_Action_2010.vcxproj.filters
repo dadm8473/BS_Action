@@ -48,6 +48,9 @@
     <Filter Include="Object\Transportation">
       <UniqueIdentifier>{0cda2b75-bd5f-414c-9709-873614db1d7f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{61fd5552-f2bf-441b-8d25-3281cc280679}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="DXUT\Optional\directx.ico">
@@ -146,6 +149,9 @@
     <ClCompile Include="CGameObject.cpp">
       <Filter>Object</Filter>
     </ClCompile>
+    <ClCompile Include="CMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
@@ -157,7 +163,6 @@
     <ClInclude Include="CTexture.h">
       <Filter>Game</Filter>
     </ClInclude>
-    <ClInclude Include="Header.h" />
     <ClInclude Include="CMatrix.h">
       <Filter>Game</Filter>
     </ClInclude>
@@ -191,6 +196,10 @@
     <ClInclude Include="CGameObject.h">
       <Filter>Object</Filter>
     </ClInclude>
+    <ClInclude Include="CMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

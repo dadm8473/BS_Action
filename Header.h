@@ -16,6 +16,8 @@ using std::string;
 #include "AssetManager.h"
 #include "CCamera.h"
 
+#include "CMap.h"
+
 #include "CGameObject.h"
 
 #include "CTransportation.h"
