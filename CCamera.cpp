@@ -2,10 +2,13 @@
 #include "Header.h"
 
 
+extern CCamera* gCamera = NULL;
+
 CCamera::CCamera()
-	: position(0, 0), center(200, 384), limitPos_Min(0, -9999), limitPos_Max(9999, 9999), target(NULL),
+	: position(0, 0), center(200, 384), scale(1,1), limitPos_Min(0, -9999), limitPos_Max(9999, 9999), target(NULL),
 	speed(0.05f), isCameraShake(false), shakeTime(0.01f), shakeTimer(0), dir(1), timer(0), time(0.2f), amount(2048)
 {
+	gCamera = this;
 }
 
 

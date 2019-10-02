@@ -4,6 +4,7 @@ class CCamera
 public:
 	D3DXVECTOR2 position;
 	D3DXVECTOR2 center;
+	D3DXVECTOR2 scale;
 
 	D3DXVECTOR2 limitPos_Min;
 	D3DXVECTOR2 limitPos_Max;
@@ -28,3 +29,4 @@ public:
 	void ShakeCamera(float time, int amount);
 };
 
+extern CCamera* gCamera;

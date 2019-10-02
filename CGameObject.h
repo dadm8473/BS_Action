@@ -2,10 +2,14 @@
 class CGameObject
 {
 public:
+
+	float gracity;
+
+	RECT rect;
+	
+public:
 	CGameObject();
 	~CGameObject();
-
-public:
 	virtual void Update(float deltaTime);
 	virtual void Render(LPD3DXSPRITE sprite);
 };

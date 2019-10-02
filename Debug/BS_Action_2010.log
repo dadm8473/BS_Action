@@ -7,8 +7,12 @@ d:\github\bs_action\ccamera.cpp(55): warning C4458: 'time' 선언은 클래스 �
 d:\github\bs_action\ccamera.cpp(55): warning C4458: 'amount' 선언은 클래스 멤버를 숨깁니다.
   d:\github\bs_action\ccamera.h(21): note: 'CCamera::amount' 선언을 참조하십시오.
   CEndingScene.cpp
-  CGameObejct.cpp
+  CGameObject.cpp
   CGameScene.cpp
+  CMap.cpp
+d:\github\bs_action\cmap.cpp(10): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\bs_action\cmap.cpp(13): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\bs_action\cmap.cpp(17): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   CPlayer.cpp
   CScene.cpp
   CTitleScene.cpp
@@ -17,7 +21,6 @@ d:\github\bs_action\ccamera.cpp(55): warning C4458: 'amount' 선언은 클래스
   CMatrix.cpp
 d:\github\bs_action\cmatrix.cpp(45): warning C4458: 'maxScene' 선언은 클래스 멤버를 숨깁니다.
   d:\github\bs_action\cmatrix.h(16): note: 'CMatrix::maxScene' 선언을 참조하십시오.
-  CTexture.cpp
   BS_Action.cpp
   코드를 생성하고 있습니다...
 AssetManager.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.

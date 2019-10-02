@@ -10,11 +10,11 @@ CMatrix::CMatrix()
 	a = r = g = b = 255;
 }
 
-void CMatrix::Update(float deltaTime, D3DXVECTOR2 camera)
+void CMatrix::Update(float deltaTime)
 {
-	D3DXVECTOR2 pos = position - center - camera;
+	D3DXVECTOR2 pos = position - center - gCamera->position;
 
-	D3DXMatrixTransformation2D(&matrix, &center, 0, &scale, &center, D3DXToRadian(rotate), &pos);
+	D3DXMatrixTransformation2D(&matrix, &center, 0, &scale * gCamera->scale, &center, D3DXToRadian(rotate), &pos);
 
 	if (animation && !isAniEnd)
 	{
