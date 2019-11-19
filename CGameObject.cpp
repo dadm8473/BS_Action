@@ -18,3 +18,11 @@ void CGameObject::Update(float deltaTime)
 void CGameObject::Render(LPD3DXSPRITE sprite)
 {
 }
+
+void CGameObject::Move(float deltaTime)
+{
+}
+
+void CGameObject::Attack()
+{
+}
